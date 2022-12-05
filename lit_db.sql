@@ -28,10 +28,11 @@ CREATE TABLE book(
     book_id         serial PRIMARY KEY,
     title           text,
     author          text[],
+    UNIQUE(title, author),
     tags            text[],
     publish_date    date,
-    cover_thumbnail bytea,
-    cover_url       text,
+    cover_thumbnail bytea UNIQUE,
+    cover_url       text UNIQUE,
     book_file_url   text UNIQUE,
     fk_book_library integer references library(library_id)
 );
