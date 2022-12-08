@@ -9,6 +9,7 @@ information.
 
 ## Usage
 1. Clone this repository
-2. Go to root directory of project
-3. Execute `npm install` in terminal to install `node_modules`
-4. For development, call `npm run dev`. To run the server, call `npm start` 
+2. cd to root directory of project in a terminal
+3. Call `npm install` to install `node_modules`
+4. For a development server, call `npm run dev`. To run the server, call
+`npm start` 
