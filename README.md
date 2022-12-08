@@ -10,6 +10,8 @@ information.
 ## Setup
 1. [Setup PostgreSQL server](https://www.postgresql.org/files/documentation/pdf/15/postgresql-15-A4.pdf)
 on host machine.
+2. Run SQL script found at `db/lit_db.sql` to setup tables in the
+database.
 
 ## Usage
 1. Clone this repository
