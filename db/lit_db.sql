@@ -15,8 +15,8 @@ CREATE TABLE app_user(
 );
 
 CREATE TABLE appUser_communities(
-    fk_appUserCommunities_community integer references community(community_id),
     fk_appUserCommunities_appUser   integer references app_user(app_user_id),
+    fk_appUserCommunities_community integer references community(community_id),
     PRIMARY KEY(fk_appUserCommunities_community, fk_appUserCommunities_appUser)
 );
 
